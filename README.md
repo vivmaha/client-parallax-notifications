@@ -1,7 +1,7 @@
 # client-parallax-notifications
 Provides notifications for the fractional positon of an HTML element relative to the viewport.
 
-# [Demo](https://vivmaha.github.io/client-rect-notifications)
+# [Demo](https://vivmaha.github.io/client-parallax-notifications)
 
 # Install
 
