@@ -53,7 +53,4 @@ exports.add = function (
             listener($event);            
         }
     );
-
-    // Run once to initialize
-    listener();
 };

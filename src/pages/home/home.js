@@ -10,15 +10,15 @@
 
                 $scope.notifications = [];
                 function OnNotification(amount) {
-                    $scope.notifications.unshift(amount);
+                    $scope.notifications.unshift(amount.toFixed(2));
                     if ($scope.notifications.length > 20) {
                         $scope.notifications.pop();
                     }
                     $scope.$apply();
                 }
 
-                var clientRectNotifications = require('../../modules/client-rect-notifications');
-                clientRectNotifications.add(trackerElement, OnNotification);
+                var clientParallaxNotifications = require('../../modules/client-parallax-notifications');
+                clientParallaxNotifications.add(trackerElement, OnNotification);
             }
         ]
     );

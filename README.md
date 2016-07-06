@@ -1,32 +1,21 @@
-# client-rect-notifications
-Provides notifications for changes in the position of an HTML element relative to the viewport.
+# client-parallax-notifications
+Provides notifications for the fractional positon of an HTML element relative to the viewport.
 
 # [Demo](https://vivmaha.github.io/client-rect-notifications)
 
 # Install
 
-    $ npm install --save-dev client-rect-notifications
+    $ npm install --save-dev client-parallax-notifications
 
 # Usage
   
     var htmlElement = ...;
-	var clientRectNotifications = require('client-rect-notifications');
-	clientRectNotifications.add(
+	var clientParallaxNotifications = require('client-parallax-notifications');
+	clientParallaxNotifications.add(
 	    htmlElement ,
-	    {
-	        completelyOutOfView : function() {
-	            // do something
-	        }, 
-	        completelyInView : function() {
-	            // do something
-	        },
-	        mostlyInView : function() {
-	            // do something
-	        },
-	        partiallyInView : function() {
-	            // do something
-	        }
-	    }
+		function(amount) {
+			// do something 
+		}	    
 	);
 
 # Build

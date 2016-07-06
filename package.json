@@ -1,9 +1,9 @@
 {
-  "name": "client-rect-notifications",
+  "name": "client-parallax-notifications",
   "version": "0.0.2",
-  "description": "Provides notifications for changes in the position of an HTML element relative to the viewport.",
+  "description": "Provides notifications for the fractional positon of an HTML element relative to the viewport.",
   "keywords": [
-    "getboundingclientrect",
+    "parallax",
     "htmlElement",
     "rect",
     "client",
@@ -13,10 +13,11 @@
     "visible",
     "view",
     "notifications",
-    "callback"
+    "callback",
+    "fractional"
   ],
-  "homepage": "https://vivmaha.github.io/client-rect-notifications",
-  "main": "src/modules/client-rect-notifications",
+  "homepage": "https://vivmaha.github.io/client-parallax-notifications",
+  "main": "src/modules/client-parallax-notifications",
   "dependencies": {},
   "devDependencies": {
     "angular": "^1.4.9",
@@ -40,12 +41,12 @@
     "email": "vivmaha@live.com"
   },
   "files": [
-    "src/modules/client-rect-notifications.js",
+    "src/modules/client-parallax-notifications.js",
     "src/modules/throttled-event-listener.js"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vivmaha/client-rect-notifications.git"
+    "url": "https://github.com/vivmaha/client-parallax-notifications.git"
   }
 }
