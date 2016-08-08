@@ -1,6 +1,6 @@
 {
   "name": "client-parallax-notifications",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Provides notifications for the fractional positon of an HTML element relative to the viewport.",
   "keywords": [
     "parallax",
@@ -19,7 +19,7 @@
   "homepage": "https://vivmaha.github.io/client-parallax-notifications",
   "main": "src/modules/client-parallax-notifications",
   "dependencies": {
-    "throttled-event-listener": "0.0.1"
+    "throttled-event-listener": "0.0.2"
   },
   "devDependencies": {
     "angular": "^1.4.9",
